@@ -1,0 +1,48 @@
+chars = readDiscreteCharacterData("onlyextant_nodep.nex")
+taxa = chars.taxa()
+n_taxa <- taxa.size()
+moves = VectorMoves()
+
+origin_time <- 1.0
+
+tree ~ dnUniformTimeTree(rootAge=origin_time,
+                taxa=taxa)
+
+moves.append( mvNodeTimeSlideUniform(tree, weight=50.0) )
+moves.append( mvNNI(tree, weight=100))
+moves.append( mvNarrow(tree, weight=100))
+moves.append( mvFNPR(tree, weight=100) )
+
+
+clock_rate ~ dnGamma(2.0,4.0)
+moves.append( mvScale(clock_rate,lambda=0.5,tune=true,weight=5.0) )
+
+Q <- fnJC(4)
+
+
+seq ~ dnPhyloCTMC(tree=tree, Q=Q,
+                  branchRates=clock_rate,
+                  type="Standard",
+                  treatAmbiguousAsGap=TRUE,
+                  coding="all")
+seq.clamp(chars)
+
+mymodel = model(seq)
+
+monitors = VectorMonitors()
+
+thinning = 100
+monitors.append( mnModel(filename="output/model_bigdata_simple.p", printgen=thinning) )
+
+monitors.append(mnFile(filename="output/model_bigdata_simple.t", printgen=thinning, tree))
+
+monitors.append( mnScreen(printgen=thinning))
+
+monitors.append(mnStochasticVariable(filename="output/model_bigdata_simple.var", printgen=thinning))
+
+mymcmc = mcmcmc(mymodel, monitors, moves, nruns=2, nchains=2)
+
+mymcmc.burnin(10000, tuningInterval=1000)
+mymcmc.run(generations=500000, tuningInterval=1000)
+
+

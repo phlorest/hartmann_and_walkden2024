@@ -1,0 +1,146 @@
+chars = readDiscreteCharacterData("onlyextant_nodep.nex")
+taxa = chars.taxa()
+
+
+n_taxa <- taxa.size()
+
+moves = VectorMoves()
+
+
+origin_time <- 1.0
+
+
+speciation_rate ~ dnLognormal(-7, 10)
+speciation_rate.setValue(0.1)
+moves.append( mvScale(speciation_rate, lambda=0.1,  weight=1, tune=FALSE) )
+moves.append( mvScale(speciation_rate, lambda=1.0,    weight=1, tune=FALSE) )
+moves.append( mvScale(speciation_rate, lambda=10,    weight=1, tune=FALSE) )
+moves.append( mvScale(speciation_rate, lambda=0.1,    weight=1, tune=TRUE) )
+
+extinction_rate ~ dnLognormal(-7, 10)
+extinction_rate.setValue(0.01)
+moves.append( mvScale(extinction_rate, lambda=0.1,  weight=1, tune=FALSE) )
+moves.append( mvScale(extinction_rate, lambda=1.0,    weight=1, tune=FALSE) )
+moves.append( mvScale(extinction_rate, lambda=10,    weight=1, tune=FALSE) )
+moves.append( mvScale(extinction_rate, lambda=0.1,    weight=1, tune=TRUE) )
+
+
+tree ~ dnBDP(rootAge=origin_time,
+                lambda=speciation_rate,
+                mu=extinction_rate,
+                taxa=taxa)
+
+
+
+
+moves.append( mvNodeTimeSlideUniform(tree, weight=50.0) )
+moves.append( mvRootTimeSlideUniform(tree, origin_time, weight=50.0) )
+moves.append( mvNNI(tree, weight=100))
+moves.append( mvNarrow(tree, weight=100))
+moves.append( mvFNPR(tree, weight=100) )
+
+
+
+n_branches <- 2 * n_taxa - 2
+
+mu ~ dnNormal(-7, 10)
+moves.append(mvSlide(mu, delta=0.1, weight=1.0, tune=FALSE))
+moves.append(mvSlide(mu, delta=1.0, weight=1.0, tune=FALSE))
+moves.append(mvSlide(mu, delta=10, weight=1.0, tune=FALSE))
+moves.append(mvSlide(mu, delta=0.1, weight=1.0, tune=TRUE))
+
+sigma ~ dnExp(1)
+moves.append( mvScale(sigma, lambda=0.1,  weight=1.0, tune=FALSE) )
+moves.append( mvScale(sigma, lambda=1.0,  weight=1.0, tune=FALSE) )
+moves.append( mvScale(sigma, lambda=10,  weight=1.0, tune=FALSE) )
+moves.append( mvScale(sigma, lambda=0.1,  weight=1.0, tune=TRUE) )
+
+branch_rates_mean ~ dnLognormal(mu, sigma)
+
+moves.append( mvScale(branch_rates_mean, lambda=0.1,  weight=1.0, tune=FALSE) )
+moves.append( mvScale(branch_rates_mean, lambda=1.0,  weight=1.0, tune=FALSE) )
+moves.append( mvScale(branch_rates_mean, lambda=10,  weight=1.0, tune=FALSE) )
+moves.append( mvScale(branch_rates_mean, lambda=0.1,  weight=1.0, tune=TRUE) )
+
+for (j in 1:n_branches) {
+    branch_rates[j] ~ dnExp(1/branch_rates_mean)
+    moves.append( mvScale(branch_rates[j], lambda=0.1,  weight=1.0, tune=FALSE) )
+    moves.append( mvScale(branch_rates[j], lambda=1.0,  weight=1.0, tune=FALSE) )
+    moves.append( mvScale(branch_rates[j], lambda=10,  weight=1.0, tune=FALSE) )
+    moves.append( mvScale(branch_rates[j], lambda=0.1,  weight=1.0, tune=TRUE) )
+  }
+
+moves.append( mvVectorScale(branch_rates, lambda=0.1,  weight=1.0, tune=FALSE) )
+moves.append( mvVectorScale(branch_rates, lambda=1.0,  weight=1.0, tune=FALSE) )
+moves.append( mvVectorScale(branch_rates, lambda=10,  weight=1.0, tune=FALSE) )
+moves.append( mvVectorScale(branch_rates, lambda=0.1,  weight=1.0, tune=TRUE) )
+
+er_prior <- v(1,1,1)
+er ~ dnDirichlet(er_prior)
+moves.append( mvBetaSimplex(er, weight=3) )
+moves.append( mvDirichletSimplex(er, weight=1) )
+pi_prior <- v(1,1,1)
+pi ~ dnDirichlet(pi_prior)
+moves.append( mvBetaSimplex(pi, weight=2) )
+moves.append( mvDirichletSimplex(pi, weight=1) )
+
+Q := fnGTR(er,pi)
+
+alpha_prior_mean <- ln(5.0)
+alpha_prior_sd <- 0.6
+alpha ~ dnLognormal(alpha_prior_mean, alpha_prior_sd)
+
+moves.append(mvScale(alpha, lambda=0.1, tune=FALSE))
+moves.append(mvScale(alpha, lambda=1.0, tune=FALSE))
+moves.append(mvScale(alpha, lambda=10, tune=FALSE))
+moves.append(mvScale(alpha, lambda=0.1, tune=TRUE))
+
+gamma_rates := fnDiscretizeGamma(alpha, alpha, 4)
+
+root_frequencies_prior <- rep(1, 4)
+root_frequencies ~ dnDirichlet(root_frequencies_prior)
+moves.append( mvBetaSimplex(root_frequencies, weight=2) )
+moves.append( mvDirichletSimplex(root_frequencies, weight=1) )
+
+
+seq ~ dnPhyloCTMC(tree=tree, Q=Q,
+                  branchRates=branch_rates,
+                  siteRates=gamma_rates,
+                  type="Standard",
+                  rootFrequencies=root_frequencies,
+                  treatAmbiguousAsGap=TRUE,
+                  coding="all")
+seq.clamp(chars)
+
+
+nNodes = 2*n_taxa-1
+for (i in 1:nNodes) {
+  nodeAge[i] := tree.nodeAge(i)
+}
+
+mymodel = model(seq)
+
+monitors = VectorMonitors()
+
+thinning = 100
+monitors.append( mnModel(filename="output/model_bigdata_extant_nodep.p", printgen=thinning) )
+
+monitors.append(mnFile(filename="output/model_bigdata_extant_nodep.t", printgen=thinning, tree))
+
+monitors.append( mnScreen(printgen=thinning))
+
+monitors.append(mnStochasticVariable(filename="output/model_bigdata_extant_nodep.var", printgen=thinning))
+
+mymcmc = mcmcmc(mymodel, monitors, moves, nruns=2, nchains=2)
+
+
+mymcmc.burnin(10000, tuningInterval=1000)
+mymcmc.run(generations=500000, tuningInterval=1000)
+
+
+
+
+
+
+
+
