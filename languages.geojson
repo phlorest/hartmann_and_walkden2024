@@ -1,0 +1,1653 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.58421,
+          5.65656
+        ]
+      },
+      "properties": {
+        "Name": "Abidji",
+        "Glottocode": "abid1235",
+        "language": "Abidji",
+        "Glottolog_Name": "Abidji"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.0,
+          -22.0
+        ]
+      },
+      "properties": {
+        "Name": "Afrikaans",
+        "Glottocode": "afri1274",
+        "language": "Afrikaans",
+        "Glottolog_Name": "Afrikaans"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.543456,
+          11.708182
+        ]
+      },
+      "properties": {
+        "Name": "Amharic",
+        "Glottocode": "amha1245",
+        "language": "Amharic",
+        "Glottolog_Name": "Amharic"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.5,
+          30.17
+        ]
+      },
+      "properties": {
+        "Name": "ArabicGulf",
+        "Glottocode": "gulf1241",
+        "language": "ArabicGulf",
+        "Glottolog_Name": "Gulf Arabic"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5,
+          32.5
+        ]
+      },
+      "properties": {
+        "Name": "ArabicMoroccan",
+        "Glottocode": "moro1292",
+        "language": "ArabicMoroccan",
+        "Glottolog_Name": "Moroccan Arabic"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0,
+          40.0
+        ]
+      },
+      "properties": {
+        "Name": "ArmenianEastern",
+        "Glottocode": "nucl1235",
+        "language": "ArmenianEastern",
+        "Glottolog_Name": "Eastern Armenian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4839,
+          40.1897
+        ]
+      },
+      "properties": {
+        "Name": "ArmenianWestern",
+        "Glottocode": "homs1234",
+        "language": "ArmenianWestern",
+        "Glottolog_Name": "Western Armenian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.1194,
+          6.14153
+        ]
+      },
+      "properties": {
+        "Name": "Bafut",
+        "Glottocode": "bafu1246",
+        "language": "Bafut",
+        "Glottolog_Name": "Bafut"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.65,
+          12.9
+        ]
+      },
+      "properties": {
+        "Name": "Bambara",
+        "Glottocode": "bamb1269",
+        "language": "Bambara",
+        "Glottolog_Name": "Bambara"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.4245,
+          12.5258
+        ]
+      },
+      "properties": {
+        "Name": "Bandial",
+        "Glottocode": "band1340",
+        "language": "Bandial",
+        "Glottolog_Name": "Bandial"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.0,
+          24.0
+        ]
+      },
+      "properties": {
+        "Name": "Bangla",
+        "Glottocode": "beng1280",
+        "language": "Bangla",
+        "Glottolog_Name": "Bengali"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4213,
+          3.80765
+        ]
+      },
+      "properties": {
+        "Name": "Basaa",
+        "Glottocode": "basa1284",
+        "language": "Basa\u00e1",
+        "Glottolog_Name": "Basa (Cameroon)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.9476548,
+          23.1253503
+        ]
+      },
+      "properties": {
+        "Name": "CantoneseGuangzhou",
+        "Glottocode": "guan1279",
+        "language": "CantoneseGuangzhou",
+        "Glottolog_Name": "Guangzhou"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.569,
+          41.453
+        ]
+      },
+      "properties": {
+        "Name": "Catalan",
+        "Glottocode": "stan1289",
+        "language": "Catalan",
+        "Glottolog_Name": "Catalan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.0,
+          34.0
+        ]
+      },
+      "properties": {
+        "Name": "Chickasaw",
+        "Glottocode": "chic1270",
+        "language": "Chickasaw",
+        "Glottolog_Name": "Chickasaw"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.982,
+          45.555
+        ]
+      },
+      "properties": {
+        "Name": "Croatian",
+        "Glottocode": "croa1245",
+        "language": "Croatian",
+        "Glottolog_Name": "Croatian Standard"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0124,
+          11.0441
+        ]
+      },
+      "properties": {
+        "Name": "DagaraBurkina",
+        "Glottocode": "nort2780",
+        "language": "DagaraBurkina",
+        "Glottolog_Name": "Northern Dagara"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.36284,
+          54.8655
+        ]
+      },
+      "properties": {
+        "Name": "Danish",
+        "Glottocode": "dani1285",
+        "language": "Danish",
+        "Glottolog_Name": "Danish"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.4896,
+          -0.93296
+        ]
+      },
+      "properties": {
+        "Name": "Dholuo",
+        "Glottocode": "luok1236",
+        "language": "Dholuo",
+        "Glottolog_Name": "Luo (Kenya and Tanzania)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.40633,
+          5.86012
+        ]
+      },
+      "properties": {
+        "Name": "DidaLakotadieko",
+        "Glottocode": "lako1244",
+        "language": "DidaLakotadi\u00e9ko",
+        "Glottolog_Name": "Lakota Dida"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0,
+          52.0
+        ]
+      },
+      "properties": {
+        "Name": "Dutch",
+        "Glottocode": "dutc1256",
+        "language": "Dutch",
+        "Glottolog_Name": "Dutch"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.0,
+          53.0
+        ]
+      },
+      "properties": {
+        "Name": "English",
+        "Glottocode": "stan1293",
+        "language": "English",
+        "Glottolog_Name": "English"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.31,
+          51.06
+        ]
+      },
+      "properties": {
+        "Name": "EnglishOld",
+        "Glottocode": "olde1238",
+        "language": "EnglishOld",
+        "Glottolog_Name": "Old English (ca. 450-1100)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.88497,
+          62.0732
+        ]
+      },
+      "properties": {
+        "Name": "Faroese",
+        "Glottocode": "faro1244",
+        "language": "Faroese",
+        "Glottolog_Name": "Faroese"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.5577,
+          64.7628
+        ]
+      },
+      "properties": {
+        "Name": "Finnish",
+        "Glottocode": "finn1318",
+        "language": "Finnish",
+        "Glottolog_Name": "Finnish"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.11345,
+          51.0754
+        ]
+      },
+      "properties": {
+        "Name": "FlemishWest",
+        "Glottocode": "vlaa1240",
+        "language": "FlemishWest",
+        "Glottolog_Name": "Western Flemish"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0,
+          48.0
+        ]
+      },
+      "properties": {
+        "Name": "French",
+        "Glottocode": "stan1290",
+        "language": "French",
+        "Glottolog_Name": "French"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.11,
+          48.8
+        ]
+      },
+      "properties": {
+        "Name": "FrenchOld",
+        "Glottocode": "oldf1239",
+        "language": "FrenchOld",
+        "Glottolog_Name": "Old French (842-ca. 1400)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.18598,
+          5.65488
+        ]
+      },
+      "properties": {
+        "Name": "Ga",
+        "Glottocode": "gaaa1244",
+        "language": "Ga",
+        "Glottolog_Name": "Ga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5343,
+          42.2446
+        ]
+      },
+      "properties": {
+        "Name": "galician",
+        "Glottocode": "gali1258",
+        "language": "galician",
+        "Glottolog_Name": "Galician"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.9091,
+          15.3529
+        ]
+      },
+      "properties": {
+        "Name": "Garifuna",
+        "Glottocode": "gari1256",
+        "language": "Garifuna",
+        "Glottolog_Name": "Garifuna"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.78613,
+          41.850397
+        ]
+      },
+      "properties": {
+        "Name": "Georgian",
+        "Glottocode": "nucl1302",
+        "language": "Georgian",
+        "Glottolog_Name": "Georgian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4676,
+          48.649
+        ]
+      },
+      "properties": {
+        "Name": "German",
+        "Glottocode": "stan1295",
+        "language": "German",
+        "Glottolog_Name": "German"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.9786,
+          46.9304
+        ]
+      },
+      "properties": {
+        "Name": "Gothic",
+        "Glottocode": "goth1244",
+        "language": "Gothic",
+        "Glottolog_Name": "Gothic"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.13,
+          38.36
+        ]
+      },
+      "properties": {
+        "Name": "Greek",
+        "Glottocode": "mode1248",
+        "language": "Greek",
+        "Glottolog_Name": "Modern Greek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9129,
+          39.8155
+        ]
+      },
+      "properties": {
+        "Name": "GreekAncient",
+        "Glottocode": "anci1242",
+        "language": "GreekAncient",
+        "Glottolog_Name": "Ionic-Attic Ancient Greek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.88621,
+          38.0166
+        ]
+      },
+      "properties": {
+        "Name": "GreekCalabria",
+        "Glottocode": "aspr1238",
+        "language": "GreekCalabria",
+        "Glottolog_Name": "Aspromonte"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.45,
+          38.73
+        ]
+      },
+      "properties": {
+        "Name": "GreekCappadocian",
+        "Glottocode": "capp1239",
+        "language": "GreekCappadocian",
+        "Glottolog_Name": "Cappadocian Greek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.978113,
+          34.924591
+        ]
+      },
+      "properties": {
+        "Name": "GreekCypriot",
+        "Glottocode": "cypr1249",
+        "language": "GreekCypriot",
+        "Glottolog_Name": "Cypriot Greek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9129,
+          39.8155
+        ]
+      },
+      "properties": {
+        "Name": "GreekHomer",
+        "Glottocode": "anci1242",
+        "language": "GreekHomer",
+        "Glottolog_Name": "Ionic-Attic Ancient Greek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.955556,
+          41.013889
+        ]
+      },
+      "properties": {
+        "Name": "GreekMedieval",
+        "Glottocode": "medi1251",
+        "language": "GreekMedieval",
+        "Glottolog_Name": "Medieval Greek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.841819,
+          5.964761
+        ]
+      },
+      "properties": {
+        "Name": "Guebie",
+        "Glottocode": "gabo1234",
+        "language": "Gu\u00e9bie",
+        "Glottolog_Name": "Gabogbo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.76767,
+          6.48529
+        ]
+      },
+      "properties": {
+        "Name": "GungbePorto-Novo",
+        "Glottocode": "gunn1250",
+        "language": "GungbePorto-Novo",
+        "Glottolog_Name": "Gun"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.136115,
+          18.795135
+        ]
+      },
+      "properties": {
+        "Name": "Haitian",
+        "Glottocode": "hait1244",
+        "language": "Haitian",
+        "Glottolog_Name": "Haitian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7804,
+          11.1513
+        ]
+      },
+      "properties": {
+        "Name": "Hausa",
+        "Glottocode": "haus1257",
+        "language": "Hausa",
+        "Glottolog_Name": "Hausa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.0179,
+          31.1056
+        ]
+      },
+      "properties": {
+        "Name": "Hebrew",
+        "Glottocode": "hebr1245",
+        "language": "Hebrew",
+        "Glottolog_Name": "Modern Hebrew"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.69828,
+          -23.93447
+        ]
+      },
+      "properties": {
+        "Name": "Hoan",
+        "Glottocode": "hoaa1235",
+        "language": "Hoan",
+        "Glottolog_Name": "Amkoe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.6555271429,
+          46.9068585714
+        ]
+      },
+      "properties": {
+        "Name": "Hungarian",
+        "Glottocode": "hung1274",
+        "language": "Hungarian",
+        "Glottolog_Name": "Hungarian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.86688,
+          5.15279
+        ]
+      },
+      "properties": {
+        "Name": "Ibibio",
+        "Glottocode": "ibib1240",
+        "language": "Ibibio",
+        "Glottolog_Name": "Ibibio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -19.0212,
+          63.4837
+        ]
+      },
+      "properties": {
+        "Name": "Icelandic",
+        "Glottocode": "icel1247",
+        "language": "Icelandic",
+        "Glottolog_Name": "Icelandic"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.23441,
+          4.62705
+        ]
+      },
+      "properties": {
+        "Name": "Igbo",
+        "Glottocode": "nucl1417",
+        "language": "Igbo",
+        "Glottolog_Name": "Igbo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.716,
+          -7.33458
+        ]
+      },
+      "properties": {
+        "Name": "Indonesian",
+        "Glottocode": "indo1316",
+        "language": "Indonesian",
+        "Glottolog_Name": "Standard Indonesian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.6489,
+          43.0464
+        ]
+      },
+      "properties": {
+        "Name": "Italian",
+        "Glottocode": "ital1282",
+        "language": "Italian",
+        "Glottolog_Name": "Italian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5794,
+          44.3536
+        ]
+      },
+      "properties": {
+        "Name": "ItalyReggiano",
+        "Glottocode": "emil1241",
+        "language": "ItalyReggiano",
+        "Glottolog_Name": "Emiliano"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0414,
+          37.5735
+        ]
+      },
+      "properties": {
+        "Name": "ItalySiciliano",
+        "Glottocode": "sici1248",
+        "language": "ItalySiciliano",
+        "Glottolog_Name": "Sicilian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.4225,
+          39.2288
+        ]
+      },
+      "properties": {
+        "Name": "ItalyTeramano",
+        "Glottocode": "neap1235",
+        "language": "ItalyTeramano",
+        "Glottolog_Name": "Continental Southern Italian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.0,
+          35.0
+        ]
+      },
+      "properties": {
+        "Name": "Japanese",
+        "Glottocode": "nucl1643",
+        "language": "Japanese",
+        "Glottolog_Name": "Japanese"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.1696,
+          14.5278
+        ]
+      },
+      "properties": {
+        "Name": "Kiche",
+        "Glottocode": "kich1262",
+        "language": "Kiche",
+        "Glottolog_Name": "K'iche'"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3348,
+          6.2596
+        ]
+      },
+      "properties": {
+        "Name": "Kom",
+        "Glottocode": "komc1235",
+        "language": "Kom",
+        "Glottolog_Name": "Kom (Cameroon)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.98,
+          37.54
+        ]
+      },
+      "properties": {
+        "Name": "Korean",
+        "Glottocode": "kore1280",
+        "language": "Korean",
+        "Glottolog_Name": "Korean"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.537,
+          -3.06952
+        ]
+      },
+      "properties": {
+        "Name": "Kuot",
+        "Glottocode": "kuot1243",
+        "language": "Kuot",
+        "Glottolog_Name": "Kuot"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.38756,
+          10.9703
+        ]
+      },
+      "properties": {
+        "Name": "Kusaal",
+        "Glottocode": "kusa1250",
+        "language": "Kusaal",
+        "Glottolog_Name": "Kusaal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.6,
+          28.33
+        ]
+      },
+      "properties": {
+        "Name": "Kusunda",
+        "Glottocode": "kusu1250",
+        "language": "Kusunda",
+        "Glottolog_Name": "Kusunda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.6143,
+          10.0063
+        ]
+      },
+      "properties": {
+        "Name": "Laal",
+        "Glottocode": "laal1242",
+        "language": "Laal",
+        "Glottolog_Name": "Laal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4502,
+          41.9026
+        ]
+      },
+      "properties": {
+        "Name": "Latin",
+        "Glottocode": "lati1261",
+        "language": "Latin",
+        "Glottolog_Name": "Latin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.1142,
+          10.8806
+        ]
+      },
+      "properties": {
+        "Name": "Mada",
+        "Glottocode": "mada1293",
+        "language": "Mada",
+        "Glottolog_Name": "Mada (Cameroon)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.1211,
+          -19.5907
+        ]
+      },
+      "properties": {
+        "Name": "Malagasy",
+        "Glottocode": "plat1254",
+        "language": "Malagasy",
+        "Glottolog_Name": "Plateau Malagasy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.228,
+          40.0209
+        ]
+      },
+      "properties": {
+        "Name": "Mandarin",
+        "Glottocode": "mand1415",
+        "language": "Mandarin",
+        "Glottolog_Name": "Mandarin Chinese"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          167.73,
+          8.72
+        ]
+      },
+      "properties": {
+        "Name": "Marshallese",
+        "Glottocode": "mars1254",
+        "language": "Marshallese",
+        "Glottolog_Name": "Marshallese"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.71505,
+          10.9234
+        ]
+      },
+      "properties": {
+        "Name": "Miya",
+        "Glottocode": "miya1266",
+        "language": "Miya",
+        "Glottolog_Name": "Miya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.52522,
+          5.38228
+        ]
+      },
+      "properties": {
+        "Name": "Moduokru",
+        "Glottocode": "adio1239",
+        "language": "m\u0254\u0301d\u04e1\u00fakr\u00f9",
+        "Glottolog_Name": "Adioukrou"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.691,
+          -8.41095
+        ]
+      },
+      "properties": {
+        "Name": "Munduruku",
+        "Glottocode": "mund1330",
+        "language": "Munduruk\u00fa",
+        "Glottolog_Name": "Munduruk\u00fa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.21246,
+          10.86047
+        ]
+      },
+      "properties": {
+        "Name": "Muyang",
+        "Glottocode": "muya1243",
+        "language": "Muyang",
+        "Glottolog_Name": "Muyang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4356,
+          21.0963
+        ]
+      },
+      "properties": {
+        "Name": "NahuatlCentralHuasteca",
+        "Glottocode": "cent2134",
+        "language": "NahuatlCentralHuasteca",
+        "Glottolog_Name": "Central Huasteca Nahuatl"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.6200833333,
+          27.5947033333
+        ]
+      },
+      "properties": {
+        "Name": "Nepali",
+        "Glottocode": "east1436",
+        "language": "Nepali",
+        "Glottolog_Name": "Eastern Pahari"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.71,
+          59.92
+        ]
+      },
+      "properties": {
+        "Name": "Norwegian",
+        "Glottocode": "norw1258",
+        "language": "Norwegian",
+        "Glottolog_Name": "Norwegian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.40031,
+          9.18404
+        ]
+      },
+      "properties": {
+        "Name": "Nupe",
+        "Glottocode": "nupe1254",
+        "language": "Nupe",
+        "Glottolog_Name": "Nupe-Nupe-Tako"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9028,
+          5.49787
+        ]
+      },
+      "properties": {
+        "Name": "Nweh",
+        "Glottocode": "ngwe1238",
+        "language": "Nweh",
+        "Glottolog_Name": "Ngwe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.81123,
+          5.1785
+        ]
+      },
+      "properties": {
+        "Name": "NzimaTiapoum",
+        "Glottocode": "nzim1238",
+        "language": "NzimaTiapoum",
+        "Glottolog_Name": "Nzima"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.477,
+          0.343
+        ]
+      },
+      "properties": {
+        "Name": "OluwangaEji",
+        "Glottocode": "wang1294",
+        "language": "OluwangaEji",
+        "Glottolog_Name": "Wanga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6255,
+          51.8439
+        ]
+      },
+      "properties": {
+        "Name": "Polish",
+        "Glottocode": "poli1260",
+        "language": "Polish",
+        "Glottolog_Name": "Polish"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.1,
+          39.91
+        ]
+      },
+      "properties": {
+        "Name": "Portuguese",
+        "Glottocode": "port1283",
+        "language": "Portuguese",
+        "Glottolog_Name": "Portuguese"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.3043,
+          15.6846
+        ]
+      },
+      "properties": {
+        "Name": "Qanjobal",
+        "Glottocode": "qanj1241",
+        "language": "Qanjobal",
+        "Glottolog_Name": "Q'anjob'al"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.3729,
+          0.31776
+        ]
+      },
+      "properties": {
+        "Name": "QuichuaImbaburaQuichua",
+        "Glottocode": "imba1240",
+        "language": "QuichuaImbaburaQuichua",
+        "Glottolog_Name": "Imbabura Highland Quichua"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.2256,
+          46.3913
+        ]
+      },
+      "properties": {
+        "Name": "Romanian",
+        "Glottocode": "roma1327",
+        "language": "Romanian",
+        "Glottolog_Name": "Romanian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.0,
+          59.0
+        ]
+      },
+      "properties": {
+        "Name": "Russian",
+        "Glottocode": "russ1263",
+        "language": "Russian",
+        "Glottolog_Name": "Russian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -171.83,
+          -13.92
+        ]
+      },
+      "properties": {
+        "Name": "Samoan",
+        "Glottocode": "samo1305",
+        "language": "Samoan",
+        "Glottolog_Name": "Samoan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.72,
+          52.37
+        ]
+      },
+      "properties": {
+        "Name": "SaxonOld",
+        "Glottocode": "olds1250",
+        "language": "SaxonOld",
+        "Glottolog_Name": "Old Saxon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9192,
+          44.3238
+        ]
+      },
+      "properties": {
+        "Name": "Serbian",
+        "Glottocode": "serb1264",
+        "language": "Serbian",
+        "Glottolog_Name": "Serbian Standard"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8477,
+          5.49017
+        ]
+      },
+      "properties": {
+        "Name": "Shupamem",
+        "Glottocode": "bamu1253",
+        "language": "Shupamem",
+        "Glottolog_Name": "Bamun"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.902,
+          -2.64378
+        ]
+      },
+      "properties": {
+        "Name": "Skou",
+        "Glottocode": "nucl1634",
+        "language": "Skou",
+        "Glottolog_Name": "Skou"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.11788,
+          40.4414
+        ]
+      },
+      "properties": {
+        "Name": "Spanish",
+        "Glottocode": "stan1288",
+        "language": "Spanish",
+        "Glottolog_Name": "Spanish"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.389526,
+          59.800634
+        ]
+      },
+      "properties": {
+        "Name": "Swedish",
+        "Glottocode": "swed1254",
+        "language": "Swedish",
+        "Glottolog_Name": "Swedish"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.747,
+          14.06
+        ]
+      },
+      "properties": {
+        "Name": "Tagalog",
+        "Glottocode": "taga1270",
+        "language": "Tagalog",
+        "Glottolog_Name": "Tagalog"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.671,
+          14.192
+        ]
+      },
+      "properties": {
+        "Name": "Thai",
+        "Glottocode": "thai1261",
+        "language": "Thai",
+        "Glottolog_Name": "Thai"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.28,
+          14.756
+        ]
+      },
+      "properties": {
+        "Name": "Tommo-So",
+        "Glottocode": "tomm1242",
+        "language": "Tommo-So",
+        "Glottolog_Name": "Tommo So Dogon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5353,
+          4.64348
+        ]
+      },
+      "properties": {
+        "Name": "TukiTukombo",
+        "Glottocode": "tuki1240",
+        "language": "TukiTukombo",
+        "Glottolog_Name": "Tuki"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.106389,
+          -22.807778
+        ]
+      },
+      "properties": {
+        "Name": "TupiTupinamba",
+        "Glottocode": "tupi1273",
+        "language": "Tup\u00edTupinamb\u00e1",
+        "Glottolog_Name": "Tupinamb\u00e1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.8667,
+          39.8667
+        ]
+      },
+      "properties": {
+        "Name": "Turkish",
+        "Glottocode": "nucl1301",
+        "language": "Turkish",
+        "Glottolog_Name": "Turkish"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.774071,
+          20.681188
+        ]
+      },
+      "properties": {
+        "Name": "Vietnamese",
+        "Glottocode": "viet1252",
+        "language": "Vietnamese",
+        "Glottolog_Name": "Vietnamese"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.383,
+          15.2534
+        ]
+      },
+      "properties": {
+        "Name": "Wolof",
+        "Glottocode": "nucl1347",
+        "language": "Wolof",
+        "Glottolog_Name": "Wolof"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0769,
+          -31.0389
+        ]
+      },
+      "properties": {
+        "Name": "Xhosa",
+        "Glottocode": "xhos1239",
+        "language": "Xhosa",
+        "Glottolog_Name": "Xhosa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.0214,
+          5.47421
+        ]
+      },
+      "properties": {
+        "Name": "Yemba",
+        "Glottocode": "yemb1246",
+        "language": "Y\u00e9mba",
+        "Glottolog_Name": "Yemba"
+      }
+    }
+  ]
+}
