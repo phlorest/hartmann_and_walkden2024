@@ -8,6 +8,7 @@ certifi==2024.2.2
 chardet==5.2.0
 cldfbench==1.14.0
 -e git+https://github.com/phlorest/goldstein2024.git@8dd66c87235fc633434cc284cc9dba6a5f6b8892#egg=cldfbench_goldstein2024
+-e git+https://github.com/phlorest/hartmann_and_walkden2024.git@d1c2a1edfbf35db0dc6babc898d8c84ac9b2e871#egg=cldfbench_hartmann_and_walkden2024
 cldfcatalog==1.5.1
 cldfviz==1.0.2
 cldfzenodo==2.1.1

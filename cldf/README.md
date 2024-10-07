@@ -13,7 +13,8 @@ property | value
 [dc:identifier](http://purl.org/dc/terms/identifier) | https://github.com/frithureiks/The-strength-of-the-phylogenetic-signal-in-syntactic-data
 [dc:license](http://purl.org/dc/terms/license) | https://creativecommons.org/licenses/by/4.0/
 [dc:subject](http://purl.org/dc/terms/subject) | <dl><dt>family</dt><dd>global</dd><dt>analysis</dt><dd>bayesian</dd><dt>scaling</dt><dd>none</dd></dl>
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="data.nex">data.nex </a></li><li><a href="hartmann_and_walkden2024">hartmann_and_walkden2024 ff8ab0f</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v5.0">Glottolog v5.0</a></li></ol>
+[dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | https://github.com/phlorest/hartmann_and_walkden2024
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="data.nex">data.nex </a></li><li><a href="https://github.com/phlorest/hartmann_and_walkden2024/tree/d1c2a1e">phlorest/hartmann_and_walkden2024 d1c2a1e</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v5.0">Glottolog v5.0</a></li></ol>
 [prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>python</strong>: 3.11.1</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | hartmann_and_walkden2024
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
@@ -49,7 +50,7 @@ Name/Property | Datatype | Description
 property | value
  --- | ---
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF TreeTable](http://cldf.clld.org/v1.0/terms.rdf#TreeTable)
-[dc:extent](http://purl.org/dc/terms/extent) | 1
+[dc:extent](http://purl.org/dc/terms/extent) | 1001
 
 
 ### Columns
@@ -70,7 +71,7 @@ Name/Property | Datatype | Description
 property | value
  --- | ---
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF MediaTable](http://cldf.clld.org/v1.0/terms.rdf#MediaTable)
-[dc:extent](http://purl.org/dc/terms/extent) | 2
+[dc:extent](http://purl.org/dc/terms/extent) | 3
 
 
 ### Columns

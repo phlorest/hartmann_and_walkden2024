@@ -16,6 +16,7 @@
         "scaling": "none"
     },
     "dc:title": "Phlorest phylogeny derived from Hartmann & Walkden 2024 'The strength of the phylogenetic signal in syntactic data'",
+    "dcat:accessURL": "https://github.com/phlorest/hartmann_and_walkden2024",
     "prov:wasDerivedFrom": [
         {
             "rdf:about": "data.nex",
@@ -24,9 +25,9 @@
             "dc:format": "https://en.wikipedia.org/wiki/Nexus_file"
         },
         {
-            "rdf:about": "hartmann_and_walkden2024",
+            "rdf:about": "https://github.com/phlorest/hartmann_and_walkden2024",
             "rdf:type": "prov:Entity",
-            "dc:created": "ff8ab0f",
+            "dc:created": "d1c2a1e",
             "dc:title": "Repository"
         },
         {
@@ -141,7 +142,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#TreeTable",
-            "dc:extent": 1,
+            "dc:extent": 1001,
             "tableSchema": {
                 "columns": [
                     {
@@ -228,7 +229,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#MediaTable",
-            "dc:extent": 2,
+            "dc:extent": 3,
             "tableSchema": {
                 "columns": [
                     {
