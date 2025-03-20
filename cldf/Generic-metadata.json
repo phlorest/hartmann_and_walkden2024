@@ -27,7 +27,7 @@
         {
             "rdf:about": "https://github.com/phlorest/hartmann_and_walkden2024",
             "rdf:type": "prov:Entity",
-            "dc:created": "d1c2a1e",
+            "dc:created": "edd2dce",
             "dc:title": "Repository"
         },
         {
@@ -40,7 +40,7 @@
     "prov:wasGeneratedBy": [
         {
             "dc:title": "python",
-            "dc:description": "3.11.1"
+            "dc:description": "3.13.1"
         },
         {
             "dc:title": "python-packages",

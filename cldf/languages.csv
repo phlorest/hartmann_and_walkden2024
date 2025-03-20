@@ -2,7 +2,7 @@ ID,Name,Macroarea,Latitude,Longitude,Glottocode,ISO639P3code,xd_ids,language,Glo
 Abidji,Abidji,,5.65656,-4.58421,abid1235,,,Abidji,Abidji
 Afrikaans,Afrikaans,,-22.0,30.0,afri1274,,,Afrikaans,Afrikaans
 AkanTwi,AkanTwi,,,,twii1234,,,AkanTwi,Twi
-Albanian,Albanian,,,,alba1267,,,Albanian,Albanian
+Albanian,Albanian,,41.0,20.0,tosk1239,,,Albanian,Northern Tosk Albanian
 Amharic,Amharic,,11.708182,39.543456,amha1245,,,Amharic,Amharic
 ArabicGulf,ArabicGulf,,30.17,47.5,gulf1241,,,ArabicGulf,Gulf Arabic
 ArabicMoroccan,ArabicMoroccan,,32.5,-7.5,moro1292,,,ArabicMoroccan,Moroccan Arabic
@@ -84,7 +84,7 @@ Moduokru,Moduokru,,5.38228,-4.52522,adio1239,,,mɔ́dӡúkrù,Adioukrou
 Munduruku,Munduruku,,-8.41095,-57.691,mund1330,,,Mundurukú,Mundurukú
 Muyang,Muyang,,10.86047,14.21246,muya1243,,,Muyang,Muyang
 NahuatlCentralHuasteca,NahuatlCentralHuasteca,,21.0963,-98.4356,cent2134,,,NahuatlCentralHuasteca,Central Huasteca Nahuatl
-Nepali,Nepali,,27.5947033333,87.6200833333,east1436,,,Nepali,Eastern Pahari
+Nepali,Nepali,,28.0,85.0,nepa1254,,,Nepali,Nepali
 Norwegian,Norwegian,,59.92,10.71,norw1258,,,Norwegian,Norwegian
 Nupe,Nupe,,9.18404,5.40031,nupe1254,,,Nupe,Nupe-Nupe-Tako
 Nweh,Nweh,,5.49787,9.9028,ngwe1238,,,Nweh,Ngwe

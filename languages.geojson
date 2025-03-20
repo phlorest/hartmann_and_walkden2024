@@ -38,6 +38,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          20.0,
+          41.0
+        ]
+      },
+      "properties": {
+        "Name": "Albanian",
+        "Glottocode": "tosk1239",
+        "language": "Albanian",
+        "Glottolog_Name": "Northern Tosk Albanian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           39.543456,
           11.708182
         ]
@@ -1190,15 +1206,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          87.6200833333,
-          27.5947033333
+          85.0,
+          28.0
         ]
       },
       "properties": {
         "Name": "Nepali",
-        "Glottocode": "east1436",
+        "Glottocode": "nepa1254",
         "language": "Nepali",
-        "Glottolog_Name": "Eastern Pahari"
+        "Glottolog_Name": "Nepali"
       }
     },
     {
