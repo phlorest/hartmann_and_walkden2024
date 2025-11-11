@@ -1,0 +1,31 @@
+{
+    "creators": [
+        {
+            "name": "Frederik Hartmann"
+        },
+        {
+            "name": "George Walkden"
+        }
+    ],
+    "contributors": [
+        {
+            "name": "Simon J. Greenhill",
+            "type": "Editor"
+        },
+        {
+            "name": "Robert Forkel",
+            "type": "Editor"
+        }
+    ],
+    "title": "Phlorest phylogeny derived from Hartmann & Walkden 2024 'The strength of the phylogenetic signal in syntactic data'",
+    "access_right": "open",
+    "keywords": [
+        "cldf:Generic",
+        "linguistics"
+    ],
+    "upload_type": "dataset",
+    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Hartmann, F. &amp; Walkden, G. (2024) The strength of the phylogenetic signal in syntactic data, Glossa: a journal of general linguistics 9(1). doi: https://doi.org/10.16995/glossa.10598</p>\n</blockquote>",
+    "license": {
+        "id": "CC-BY-4.0"
+    }
+}
