@@ -1,5 +1,6 @@
 {
     "id": "hartmann_and_walkden2024",
+    "zenodo_concept_doi": "10.5281/zenodo.17578197",
     "title": "Phlorest phylogeny hartmann_and_walkden2024",
     "description": null,
     "license": "https://creativecommons.org/licenses/by/4.0/",
@@ -14,6 +15,5 @@
     "cldf": "",
     "missing": {
         "characters": "listed in supplement but hard to identify which is which"
-    },
-    "zenodo_concept_doi": null
+    }
 }
