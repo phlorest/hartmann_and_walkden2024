@@ -1,6 +1,7 @@
 # Phlorest phylogeny derived from Hartmann & Walkden 2024 'The strength of the phylogenetic signal in syntactic data'
 
 [![CLDF validation](https://github.com/phlorest/hartmann_and_walkden2024/workflows/CLDF-validation/badge.svg)](https://github.com/phlorest/hartmann_and_walkden2024/actions?query=workflow%3ACLDF-validation)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17578197.svg)](https://doi.org/10.5281/zenodo.17578197)
 
 ## How to cite
 
