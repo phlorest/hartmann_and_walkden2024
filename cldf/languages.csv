@@ -39,7 +39,7 @@ German,German,,48.649,12.4676,stan1295,,,German,German
 Gothic,Gothic,,46.9304,29.9786,goth1244,,,Gothic,Gothic
 Greek,Greek,,38.36,23.13,mode1248,,,Greek,Modern Greek
 GreekAncient,GreekAncient,,39.8155,21.9129,anci1242,,,GreekAncient,Ionic-Attic Ancient Greek
-GreekCalabria,GreekCalabria,,38.0166,15.88621,aspr1238,,,GreekCalabria,Aspromonte
+GreekCalabria,GreekCalabria,,38.0166,15.88621,aspr1238,,,GreekCalabria,Greko (Calabrian Greek)
 GreekCappadocian,GreekCappadocian,,38.73,35.45,capp1239,,,GreekCappadocian,Cappadocian Greek
 GreekCypriot,GreekCypriot,,34.924591,32.978113,cypr1249,,,GreekCypriot,Cypriot Greek
 GreekHomer,GreekHomer,,39.8155,21.9129,anci1242,,,GreekHomer,Ionic-Attic Ancient Greek
@@ -64,7 +64,7 @@ ItalySiciliano,ItalySiciliano,,37.5735,14.0414,sici1248,,,ItalySiciliano,Sicilia
 ItalyTeramano,ItalyTeramano,,39.2288,16.4225,neap1235,,,ItalyTeramano,Continental Southern Italian
 Japanese,Japanese,,35.0,135.0,nucl1643,,,Japanese,Japanese
 Kiche,Kiche,,14.5278,-91.1696,kich1262,,,Kiche,K'iche'
-KiLega,KiLega,,,,lega1253,,,KiLega,Lega
+KiLega,KiLega,,-3.83196,27.1424,lega1249,,,KiLega,Lega-Shabunda
 Kiyaka,Kiyaka,,,,yaka1270,,,Kiyaka,Yaka
 Kom,Kom,,6.2596,10.3348,komc1235,,,Kom,Kom (Cameroon)
 Korean,Korean,,37.54,126.98,kore1280,,,Korean,Korean
@@ -107,14 +107,14 @@ Skou,Skou,,-2.64378,140.902,nucl1634,,,Skou,Skou
 Spanish,Spanish,,40.4414,-1.11788,stan1288,,,Spanish,Spanish
 Swedish,Swedish,,59.800634,17.389526,swed1254,,,Swedish,Swedish
 Tagalog,Tagalog,,14.06,121.747,taga1270,,,Tagalog,Tagalog
-TaiwaneseSouthernMin,TaiwaneseSouthernMin,,,,,,,TaiwaneseSouthernMin,
+TaiwaneseSouthernMin,TaiwaneseSouthernMin,,25.0853403,121.4231642,taib1242,,,TaiwaneseSouthernMin,Taibei Hokkien
 Thai,Thai,,14.192,100.671,thai1261,,,Thai,Thai
 Tommo_So,Tommo-So,,14.756,-3.28,tomm1242,,,Tommo-So,Tommo So Dogon
-TukangBesi,TukangBesi,,,,tuka1247,,,TukangBesi,Tukang Besi
+TukangBesi,TukangBesi,,-5.7478,123.948,tuka1249,,,TukangBesi,Tukang Besi South
 TukiTukombo,TukiTukombo,,4.64348,11.5353,tuki1240,,,TukiTukombo,Tuki
 TupiTupinamba,TupiTupinamba,,-22.807778,-42.106389,tupi1273,,,TupíTupinambá,Tupinambá
 Turkish,Turkish,,39.8667,32.8667,nucl1301,,,Turkish,Turkish
-Twi,Twi,,,,akan1251,,,Twi,Akanic
+Twi,Twi,,6.34756,-1.33254,akan1250,,,Twi,Akan
 Vata,Vata,,,,vata1239,,,Vata,Vata
 Vietnamese,Vietnamese,,20.681188,105.774071,viet1252,,,Vietnamese,Vietnamese
 Wolof,Wolof,,15.2534,-15.383,nucl1347,,,Wolof,Wolof

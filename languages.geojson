@@ -22,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          30.0,
-          -22.0
+          20.46356,
+          -31.63272
         ]
       },
       "properties": {
@@ -606,7 +606,7 @@
         "Name": "GreekCalabria",
         "Glottocode": "aspr1238",
         "language": "GreekCalabria",
-        "Glottolog_Name": "Aspromonte"
+        "Glottolog_Name": "Greko (Calabrian Greek)"
       }
     },
     {
@@ -943,6 +943,22 @@
         "Glottocode": "kich1262",
         "language": "Kiche",
         "Glottolog_Name": "K'iche'"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1424,
+          -3.83196
+        ]
+      },
+      "properties": {
+        "Name": "KiLega",
+        "Glottocode": "lega1249",
+        "language": "KiLega",
+        "Glottolog_Name": "Lega-Shabunda"
       }
     },
     {
@@ -1526,6 +1542,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          121.4231642,
+          25.0853403
+        ]
+      },
+      "properties": {
+        "Name": "TaiwaneseSouthernMin",
+        "Glottocode": "taib1242",
+        "language": "TaiwaneseSouthernMin",
+        "Glottolog_Name": "Taibei Hokkien"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           100.671,
           14.192
         ]
@@ -1551,6 +1583,22 @@
         "Glottocode": "tomm1242",
         "language": "Tommo-So",
         "Glottolog_Name": "Tommo So Dogon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.948,
+          -5.7478
+        ]
+      },
+      "properties": {
+        "Name": "TukangBesi",
+        "Glottocode": "tuka1249",
+        "language": "TukangBesi",
+        "Glottolog_Name": "Tukang Besi South"
       }
     },
     {
@@ -1599,6 +1647,22 @@
         "Glottocode": "nucl1301",
         "language": "Turkish",
         "Glottolog_Name": "Turkish"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.33254,
+          6.34756
+        ]
+      },
+      "properties": {
+        "Name": "Twi",
+        "Glottocode": "akan1250",
+        "language": "Twi",
+        "Glottolog_Name": "Akan"
       }
     },
     {
