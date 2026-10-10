@@ -8,7 +8,7 @@ with open('metadata.json', encoding='utf-8') as fp:
 
 setup(
     name='cldfbench_hartmann_and_walkden2024',
-    description=metadata['title'],
+    description=metadata['name'],
     license=metadata.get('license', ''),
     url=metadata.get('url', ''),
     py_modules=['cldfbench_hartmann_and_walkden2024'],
