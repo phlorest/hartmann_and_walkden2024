@@ -11,7 +11,7 @@
     "dc:license": "https://creativecommons.org/licenses/by/4.0/",
     "dc:source": "sources.bib",
     "dc:subject": {
-        "family": "global",
+        "family": "Global",
         "analysis": "bayesian",
         "scaling": "none"
     },
@@ -27,7 +27,7 @@
         {
             "rdf:about": "https://github.com/phlorest/hartmann_and_walkden2024",
             "rdf:type": "prov:Entity",
-            "dc:created": "v1.0-8-gd06af55",
+            "dc:created": "v1.0-10-g4def1c2",
             "dc:title": "Repository"
         },
         {

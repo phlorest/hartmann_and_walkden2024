@@ -4,7 +4,7 @@ babel==2.18.0
 bibtexparser==2.1.0
 certifi==2026.7.22
 cldfbench==2.0.1
--e git+https://github.com/phlorest/hartmann_and_walkden2024.git@d06af5512ef934e4da0afa6593e5d18904359fd2#egg=cldfbench_hartmann_and_walkden2024
+-e git+https://github.com/phlorest/hartmann_and_walkden2024.git@4def1c294b554dd80ab6c5b5f9de2a96535c68a4#egg=cldfbench_hartmann_and_walkden2024
 cldfcatalog==1.7.0
 cldfviz==2.0.0
 cldfzenodo==3.0.0
@@ -29,9 +29,9 @@ matplotlib==3.11.2
 multipledispatch==1.0.0
 nameparser==2.3.0
 newick==1.11.0
-numpy==2.5.3
+numpy==2.5.4
 packaging==26.3
-platformdirs==4.12.4
+platformdirs==4.13.0
 pluggy==1.6.0
 prettytable==3.18.0
 pycldf==2.1.1

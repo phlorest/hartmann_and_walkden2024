@@ -12,7 +12,7 @@ If you use these data please cite
 
 ## Description
 
-A [Phlorest phylogeny](https://github.com/phlorest) of the global language family computed from a bayesian analysis.
+A [Phlorest phylogeny](https://github.com/phlorest) of the Global language family computed from a bayesian analysis.
 
 
 This dataset is licensed under a https://creativecommons.org/licenses/by/4.0/ license
